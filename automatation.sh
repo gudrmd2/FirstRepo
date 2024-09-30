@@ -11,7 +11,6 @@ CONFIG=config.txt
 CMDLINE=cmdline.txt
 IPADDR=192.168.218.2
 
-
 #1
 function detectSD(){
 	if [ -d "${SDPATH}" ]; then 
